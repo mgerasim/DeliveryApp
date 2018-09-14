@@ -110,6 +110,14 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegisterViewController.cs" />
+    <Compile Include="RegisterViewController.designer.cs">
+      <DependentUpon>RegisterViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegViewController.cs" />
+    <Compile Include="RegViewController.designer.cs">
+      <DependentUpon>RegViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="..\DeliveryApp\DeliveryApp.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
